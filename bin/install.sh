@@ -38,12 +38,22 @@ touch builds/development/_base.scss
 touch builds/development/_modules.scss
 touch builds/development/_pixgrid.scss
 touch builds/development/_rclick.scss
+# copy data
 
-touch css/style.css
+# touch css/style.css
 
+# Git
+touch .gitignore
+echo ".DS_Store" >> .gitignore
+echo "node_modules" >> .gitignore
+echo ".tmp" >> .gitignore
+echo ".sass-cache" >> .gitignore
+echo "builds/**/images/*" >> .gitignore
 
 git init
-touch .gitignore
-echo "builds/development/images" >> .gitignore
+touch README.mkdir
 
-# http://goo.gl/qPjiOh
+#Gulp
+npm install -g gulp
+npm install --save-dev gulp
+touch gulpfile.js
