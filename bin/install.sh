@@ -66,3 +66,7 @@ npm install --save-dev gulp-browserify
 npm install --save-dev jquery
 npm install --save-dev mustache
 
+gulp coffee
+gulp js
+
+npm install --save-dev gulp-compass
