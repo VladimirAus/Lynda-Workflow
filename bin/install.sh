@@ -59,3 +59,10 @@ npm install --save-dev gulp
 touch gulpfile.js
 npm install --save-dev gulp-util
 
+npm install --save-dev gulp-coffee
+npm install --save-dev gulp-concat
+
+npm install --save-dev gulp-browserify
+npm install --save-dev jquery
+npm install --save-dev mustache
+
